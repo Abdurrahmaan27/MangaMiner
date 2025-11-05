@@ -2,6 +2,7 @@ from fastapi import FastAPI, Response, Query
 from src.MangaReader import Mangareader
 
 
+
 app = FastAPI()
 
 mangareader_genres = ["Action", "Adventure", "Comedy", "Cooking", "Doujinshi", "Drama", "Erotica", "Fantasy", "Gender Bender", "Harem", "Historical", "Horror", "Isekai", "Josei", "Manhua", "Manhwa", "Martial arts", "Mature", "Mecha", "Medical", "Mystery", "One shot", "Pornographic", "Psychological", "Romance", "School life", "Sci fi", "Seinen", "Shoujo", "Shounen ai", "Slice of life", "Smut", "Sports", "Supernatural", "Tragedy", "Webtoons", "Yaoi", "Yuri"]
